@@ -1,20 +1,22 @@
 public class Mustang implements Horse {
 
-    private int name;
+    private String name;
     private int weight;
 
-    public Mustang(String secretariat, int i) {
+    public Mustang(String name, int weight) {
+        this.name = name;
+        this.weight = weight;
     }
 
 
     @Override
     public String getName() {
-        return null;
+        return name;
     }
 
     @Override
     public int getWeight() {
-        return 0;
+        return weight;
     }
 }
 
